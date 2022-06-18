@@ -88,9 +88,9 @@ tableList.addEventListener('click', (e) => {
         fetch(`${url}/${idBnt}`, {
             method: 'DELETE'
         })
-        // .then(res=> res.json())
-        // .then(() => location.reload())
-        location.reload()
+                // .then(res=> res.json())
+                .then(() => location.reload())
+        //location.reload()
     }
 
     //update - editar person
